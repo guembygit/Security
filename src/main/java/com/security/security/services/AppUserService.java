@@ -24,7 +24,6 @@ public class AppUserService implements UserDetailsService {
 					.password(appUser.getPassword())
 					.roles(appUser.getRole())
 					.build();
-			
 			return springUser;
 		}
 		
